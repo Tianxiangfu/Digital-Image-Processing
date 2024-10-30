@@ -52,45 +52,40 @@
 ### 实验结果
 
 1. **泊松图像融合**：
-    <p align="center">
-    <figure>
-        <img src="result_pics/Background_Image.png" alt="示例图片" width="300">
-        <figcaption>图1：背景图片</figcaption>
-    </figure>
-    </p>
-    <p align="center">
-    <figure>
-        <img src="result_pics/Foreground_Image.png" alt="示例图片" width="300">
-        <figcaption>图2：前景图片</figcaption>
-    </figure>
-    </p>
-    <p align="center">
-    <figure>
-        <img src="result_pics/Blended_Image.png" alt="示例图片" width="300">
-        <figcaption>图2：融合后的图片</figcaption>
-    </figure>
-    </p>
+    <div style="text-align: center;">
+    <img src="result_pics/Background_Image.png"  style="max-width: 100%; height: auto;">
+    <p>图1：背景图片</p>
+    </div>
+
+    <div style="text-align: center;">
+    <img src="result_pics/Foreground_Image.png"  style="width: 150%; height: auto;">
+    <p>图2：前景图片</p>
+    </div>
+
+    <div style="text-align: center;">
+    <img src="result_pics/Blended_Image.png" style="max-width: 100%; height: auto;">
+    <p>图3：融合后的图片</p>
+    </div>
+    
 
 
 2. **Pix2pix实现**：
-   <p align="center">
-    <figure>
-        <img src="Pix2Pix/train_results/epoch_20/result_1.png" alt="示例图片" width="300">
-        <figcaption>图2：epoch为20时训练结果</figcaption>
-    </figure>
-    </p>
+   <div style="text-align: center;">
+    <img src="Pix2Pix/train_results/epoch_20/result_1.png" style="max-width: 100%; height: auto;">
+    <p>图4：epoch为20时训练结果</p>
+    </div>
 
-     <p align="center">
-    <figure>
-        <img src="Pix2Pix/train_results/epoch_100/result_1.png" alt="示例图片" width="300">
-        <figcaption>图2：epoch为100时训练结果</figcaption>
-    </figure>
-    </p>
-    <figure>
-        <img src="Pix2Pix/train_results/epoch_500/result_1.png" alt="示例图片" width="300">
-        <figcaption>图2：epoch为500时训练结果</figcaption>
-    </figure>
-    </p>
+    <div style="text-align: center;">
+    <img src="Pix2Pix/train_results/epoch_100/result_1.png" style="max-width: 100%; height: auto;">
+    <p>图5：epoch为100时训练结果</p>
+    </div>
+
+    <div style="text-align: center;">
+    <img src="Pix2Pix/train_results/epoch_500/result_1.png" style="max-width: 100%; height: auto;">
+    <p>图6：epoch为500时训练结果</p>
+    </div>
+
+   
 
 ## 参考文献
 1. [P.Perez, M.Gangnet, "Poisson Image Editing"](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf)
