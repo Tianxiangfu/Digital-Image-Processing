@@ -58,6 +58,11 @@
     </div>
 
     <div style="text-align: center;">
+    <img src="result_pics/Foreground_Image.png"  style="max-width: 100%; height: auto;">
+    <p>图2：前景图片</p>
+    </div>
+
+    <div style="text-align: center;">
     <img src="result_pics/Foreground_Image.png"  style="width: 150%; height: auto;">
     <p>图2：前景图片</p>
     </div>
