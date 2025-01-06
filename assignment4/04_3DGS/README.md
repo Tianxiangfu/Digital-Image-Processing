@@ -40,7 +40,7 @@
    得到结果如下：
    <p align="center">
      <figure style="display: inline-block; margin: 10px;">
-       <img src="pics\1.png" alt="语义图" width="290" height="280">
+       <img src="pics\1.png" alt="语义图" width="900" height="280">
        <figcaption>图1：高斯点云的初步渲染。</figcaption>
      </figure>
    
@@ -50,21 +50,21 @@
     1.计算并返回每个高斯分布的协方差矩阵，协方差矩阵由旋转矩阵 R 和缩放矩阵 S 共同决定。旋转矩阵控制高斯分布的方向，而尺度矩阵控制其在各个方向上的扩展程度。
     <p align="center">
      <figure style="display: inline-block; margin: 10px;">
-       <img src="pics\2.png" alt="语义图" width="290" height="280">
+       <img src="pics\2.png" alt="语义图" width="900" height="280">
        <figcaption>图2：计算每个高斯分布的协方差矩阵。</figcaption>
      </figure>
     
     2.计算投影的雅可比矩阵并将三维协方差变换到相机坐标系
     <p align="center">
      <figure style="display: inline-block; margin: 10px;">
-       <img src="pics\3.png" alt="语义图" width="290" height="280">
+       <img src="pics\3.png" alt="语义图" width="900" height="300">
        <figcaption>图3：计算投影的雅可比矩阵并将三维协方差变换到相机坐标系。</figcaption>
      </figure>
     
     3.实现了基于 alpha 合成（alpha compositing）进行图像渲染的过程
     <p align="center">
      <figure style="display: inline-block; margin: 10px;">
-       <img src="pics\4.png" alt="语义图" width="290" height="280">
+       <img src="pics\4.png" alt="语义图" width="900" height="240">
        <figcaption>图4：累积透明度（Alpha）并计算权重。</figcaption>
      </figure>
 
@@ -86,5 +86,6 @@
 在运行结构光法后，我们得到了稀疏的3D点云，结合相机的姿态信息进行场景重建。
 3D高斯点云初始化与投影：
 初始3D点云经过高斯变换后，生成了覆盖更大空间的3D高斯点。在投影到2D平面时，成功生成了具有适当模糊效果的高斯分布。 例如，我们以乐高玩具图片训练，以下是渲染的效果图：
+
 <img src="pics\result.gif" alt="对人的交互操作" width="600">
 
